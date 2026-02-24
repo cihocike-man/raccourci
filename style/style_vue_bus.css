@@ -1,0 +1,46 @@
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    background: cyan;
+    padding: 10px;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background: lightblue;
+    padding: 0;
+    min-width: 200px;
+}
+
+.submenu li a {
+    padding: 8px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.contenu {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+
+
+

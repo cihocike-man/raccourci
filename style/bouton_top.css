@@ -1,0 +1,24 @@
+/* Défilement fluide */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Bouton */
+.btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #222;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* Effet au survol */
+.btn-top:hover {
+    background: #555;
+}
